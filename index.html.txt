@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>O‘quv markaz testi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#FF6F61">
+  <style>
+    body {
+      font-family: 'Comic Sans MS', Arial, sans-serif;
+      text-align: center;
+      background: linear-gradient(to bottom, #FFFAE3, #FFD6A5);
+      padding: 20px;
+    }
+    h2 {
+      color: #FF6F61;
+      font-size: 32px;
+    }
+    button {
+      background-color: #FFB347;
+      color: white;
+      font-size: 22px;
+      padding: 20px 40px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-top: 30px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: scale(1.1);
+    }
+    p {
+      font-size: 18px;
+      margin-top: 25px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>?? O‘quv markaz testi</h2>
+
+  <a href="https://docs.google.com/forms/d/1Mk_Mp3H1wzr1zA7IFNVmk4NBaDEC7XI4vna0xYcvQkw/edit">
+    <button>?? Testni boshlash</button>
+  </a>
+
+  <p>?? Tangalar Google Sheets’da hisoblanadi</p>
+  <p>?? Reyting va sovrinlar tez orada ko‘rinadi!</p>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+
+</body>
+</html>
